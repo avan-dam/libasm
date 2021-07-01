@@ -10,17 +10,17 @@ your library to show that it’s functional.
 
 • You must rewrite the following functions in asm:
 
-  ◦ ft_strlen (man 3 strlen)
+  - ft_strlen (man 3 strlen)
 
-  ◦ ft_strcpy (man 3 strcpy)
+  - ft_strcpy (man 3 strcpy)
 
-  ◦ ft_strcmp (man 3 strcmp)
+  - ft_strcmp (man 3 strcmp)
 
-  ◦ ft_write (man 2 write)
+  - ft_write (man 2 write)
 
-  ◦ ft_read (man 2 read)
+  - ft_read (man 2 read)
 
-  ◦ ft_strdup (man 3 strdup, you can call to malloc)
+  - ft_strdup (man 3 strdup, you can call to malloc)
 
 • You must check for errors during syscalls and properly set them when needed
 
