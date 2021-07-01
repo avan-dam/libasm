@@ -1,7 +1,9 @@
 # libasm
 The aim of this project is to get familiar with assembly language.
 
+
 **Subject:**
+
 The library must be called libasm.a.
 • You must submit a main that will test your functions and that will compile with
 your library to show that it’s functional.
@@ -16,12 +18,16 @@ your library to show that it’s functional.
 • Your code must set the variable errno properly.
 • For that, you are allowed to call the extern ___error or errno_location.
 
-**Prerequisites**
+
+**Prerequisites:**
+
 Please make sure you have nasm installed 
 You can do this using brew with the command
 brew install nasm
 
+
 **Usage and Testing**
+
 Running make will make the library libasm.a
 I have also provided a main.c for testing.
 To test run the following steps in terminal, as seen in the picture you can test functions individually using my main or all the functions writen at once.
