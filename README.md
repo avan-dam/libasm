@@ -39,7 +39,25 @@ brew install nasm
 **Usage and Testing:**
 
 Running make will make the library libasm.a
+
+```
+git clone https://github.com/avan-dam/libasm.git
+cd libasm
+make
+```
+
 I have also provided a main.c for testing.
-To test run the following steps in terminal, as seen in the picture you can test functions individually using my main or all the functions writen at once.
+To run my test file type the following in terminal
+
+```
+gcc libasm.a main.c
+./a.out
+```
+and for a specific function e.g. strlen
+```
+./a.out strlen
+```
+
+This can all be seen in the screenshot below
 
 ![Screenshot 2021-07-01 at 09 59 05](https://user-images.githubusercontent.com/61982496/124088786-93b22b00-da53-11eb-83e0-f034aa1d7e78.png)
