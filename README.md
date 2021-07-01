@@ -26,7 +26,7 @@ You can do this using brew with the command
 brew install nasm
 
 
-**Usage and Testing**
+**Usage and Testing:**
 
 Running make will make the library libasm.a
 I have also provided a main.c for testing.
